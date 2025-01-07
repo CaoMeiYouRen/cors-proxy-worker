@@ -1,4 +1,4 @@
-name = "hono-template"
+name = "cors-proxy-worker"
 # 默认为 Production 环境
 main = "dist/cloudflare-workers.mjs"
 minify = true

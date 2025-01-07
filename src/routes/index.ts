@@ -8,7 +8,7 @@ const app = new Hono<{ Bindings: Bindings }>()
 app.all('*', async (c) => {
     const request = c.req.raw
     const url = new URL(c.req.url)
-    const targetUrl = url.searchParams.get('targetUrl') || c.header('x-target-url') || ''
+    const targetUrl = url.searchParams.get('targetUrl') || request.headers.get('x-target-url') || ''
     if (!targetUrl) {
         throw new HTTPException(400, { message: 'targetUrl is required' })
     }

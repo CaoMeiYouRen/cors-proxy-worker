@@ -3,6 +3,7 @@ module.exports = {
     root: true,
     globals: {
         Bun: true,
+        RequestInit: true,
     },
     env: {
     },

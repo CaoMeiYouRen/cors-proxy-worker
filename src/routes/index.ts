@@ -13,6 +13,7 @@ app.all('*', async (c) => {
         throw new HTTPException(400, { message: 'targetUrl is required' })
     }
     url.searchParams.delete('targetUrl')
+    request.headers.delete('x-target-url')
     const newUrl = new URL(targetUrl)
     newUrl.search = url.search
     newUrl.pathname = url.pathname

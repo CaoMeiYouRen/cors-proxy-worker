@@ -128,7 +128,9 @@
   },
   "pnpm": {
     "overrides": {
-      "compare-func": "^2.0.0"
+      "compare-func": "^2.0.0",
+      "path-to-regexp": "^6.3.0",
+      "tar": "^6.2.1"
     }
   },
   "type": "module"

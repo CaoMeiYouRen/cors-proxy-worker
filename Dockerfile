@@ -12,7 +12,7 @@ WORKDIR /app
 
 COPY package.json .npmrc pnpm-lock.yaml /app/
 
-RUN pnpm i --frozen-lockfile
+RUN npm install -g pnpm@11 && pnpm i --frozen-lockfile
 
 COPY . /app
 
@@ -36,7 +36,7 @@ RUN export PROJECT_ROOT=/app/ && \
 # 阶段三：生产阶段
 FROM runtime
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 WORKDIR /app
 

@@ -113,7 +113,7 @@
     "url": "https://github.com/CaoMeiYouRen/cors-proxy-worker/issues"
   },
   "dependencies": {
-    "@hono/node-server": "^1.13.7",
+    "@hono/node-server": "^2.0.6",
     "await-to-js": "^3.0.0",
     "better-bytes": "^1.2.4",
     "dayjs": "^1.11.13",

@@ -23,7 +23,7 @@ overrides:
   minimatch@>=9: ^9.0.7
   uuid: ^11.1.1
   '@tootallnate/once': ^2.0.1
-  '@hono/node-server': ^2.0.5
+  '@hono/node-server': ^2.0.10
   hono: ^4.12.27
   fast-uri: ^3.1.4
   brace-expansion: ^2.1.2
@@ -36,8 +36,8 @@ importers:
   .:
     dependencies:
       '@hono/node-server':
-        specifier: ^2.0.5
-        version: 2.0.5(hono@4.12.31)
+        specifier: ^2.0.10
+        version: 2.0.11(hono@4.12.31)
       await-to-js:
         specifier: ^3.0.0
         version: 3.0.0
@@ -566,8 +566,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@hono/node-server@2.0.5':
-    resolution: {integrity: sha512-yQFvDmyDo3y6rEOJZDUYPJ49DIKTPpIk4kGvm40xx4Ejne0Pu9a1+exxPN+C1UppWK/WGZX9F++/Xs231tE86g==}
+  '@hono/node-server@2.0.11':
+    resolution: {integrity: sha512-bjD221KPLoJTWUwso1J6fGKiTXEUFedG/s0visavY4zakFPkeGURMRNly+FhBHs7T8Dz4qHaZIMX9ZoJHSJtKA==}
     engines: {node: '>=20'}
     peerDependencies:
       hono: ^4.12.27
@@ -6027,7 +6027,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@hono/node-server@2.0.5(hono@4.12.31)':
+  '@hono/node-server@2.0.11(hono@4.12.31)':
     dependencies:
       hono: 4.12.31
 

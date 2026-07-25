@@ -126,14 +126,5 @@
     "winston": "^3.17.0",
     "winston-daily-rotate-file": "^5.0.0"
   },
-  "pnpm": {
-    "overrides": {
-      "fast-uri": "^3.1.4",
-      "brace-expansion": "^2.1.2",
-      "postcss": "^8.5.18",
-      "sharp": "^0.35.0",
-      "js-yaml": "^4.3.0"
-    }
-  },
   "type": "module"
 }

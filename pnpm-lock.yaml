@@ -51,8 +51,8 @@ importers:
         specifier: ^16.4.7
         version: 16.4.7
       fs-extra:
-        specifier: ^11.2.0
-        version: 11.3.5
+        specifier: ^11.4.0
+        version: 11.4.0
       hono:
         specifier: ^4.12.27
         version: 4.12.31
@@ -2715,16 +2715,16 @@ packages:
   from2@2.3.0:
     resolution: {integrity: sha512-OMcX/4IC/uqEPVgGeyfN22LJk6AZrMkRZHxcHBMBvHScDGgwTm2GT2Wkgtocyd3JfZffjj2kYUDXXII0Fk9W0g==}
 
-  fs-extra@10.0.0:
-    resolution: {integrity: sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==}
+  fs-extra@10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
 
   fs-extra@11.1.0:
     resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
     engines: {node: '>=14.14'}
 
-  fs-extra@11.3.5:
-    resolution: {integrity: sha512-eKpRKAovdpZtR1WopLHxlBWvAgPny3c4gX1G5Jhwmmw4XJj0ifSD5qB5TOo8hmA0wlRKDAOAhEE1yVPgs6Fgcg==}
+  fs-extra@11.4.0:
+    resolution: {integrity: sha512-EQsFzMUJkCKGr1ePqlYADkIUmHW1s3ZXr5Yqy6wbGrfUCphpl2maM/kyOIRA2HpP3AaFQTZXD4ldjek+nccddA==}
     engines: {node: '>=14.14'}
 
   fs-extra@8.1.0:
@@ -6565,7 +6565,7 @@ snapshots:
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
-      fs-extra: 11.3.5
+      fs-extra: 11.4.0
       lodash: 4.18.1
       semantic-release: 21.0.1
 
@@ -6608,7 +6608,7 @@ snapshots:
       bottleneck: 2.19.5
       debug: 4.4.3
       dir-glob: 3.0.1
-      fs-extra: 10.0.0
+      fs-extra: 10.1.0
       globby: 11.0.0
       http-proxy-agent: 4.0.0
       https-proxy-agent: 5.0.0
@@ -6628,7 +6628,7 @@ snapshots:
       '@semantic-release/error': 3.0.0
       aggregate-error: 4.0.1
       execa: 7.2.0
-      fs-extra: 11.3.5
+      fs-extra: 11.4.0
       lodash-es: 4.18.1
       nerf-dart: 1.0.0
       normalize-url: 8.1.1
@@ -8497,7 +8497,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 2.3.8
 
-  fs-extra@10.0.0:
+  fs-extra@10.1.0:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.2.1
@@ -8509,7 +8509,7 @@ snapshots:
       jsonfile: 6.2.1
       universalify: 2.0.1
 
-  fs-extra@11.3.5:
+  fs-extra@11.4.0:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.2.1
